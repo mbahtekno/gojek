@@ -7,11 +7,11 @@ $header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
 $header[] = "Accept-Language: id-ID";
 $header[] = "Content-Type: application/json; charset=UTF-8";
-$header[] = "X-AppVersion: 3.30.2";
+$header[] = "X-AppVersion: 3.10.2";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -5.172214,119.465547";
+$header[] = "X-Location: -5.2325346,119.465547";
 $header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
@@ -67,7 +67,7 @@ function nama(){
 }
 function randomuser(){
     randomuser:
-    $randomuser = file_get_contents('https://aldmlc.com/user.php?qty=1&domain=xsingles.site');
+    $randomuser = file_get_contents('https://wirkel.com/data.php?qty=1&domain=xsingles.site');
     $json = json_decode($randomuser, true);
     $data = $json['result']['0'];
     return $data;
