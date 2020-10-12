@@ -5,6 +5,7 @@ $voucher1 = "PESANGOFOOD0607"; // Ganti disini
 $voucher2 = "COBAGOFOOD0607"; // Ganti disini
 $voucher3 = "PAKEGOFOOD0607"; // Ganti disini
 $voucher4 = "EATLAH"; // Ganti disini
+$voucher4 = "GOFOODSBY1010"; // Ganti disini
 $sec = "20";
 
 ulang:
