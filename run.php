@@ -1,11 +1,11 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-$voucher1 = "PESANGOFOOD0607"; // Ganti disini
-$voucher2 = "COBAGOFOOD0607"; // Ganti disini
+$voucher1 = "OKTGOFOOD2020"; // Ganti disini
+$voucher2 = "OKTDRIVE20"; // Ganti disini
 $voucher3 = "PAKEGOFOOD0607"; // Ganti disini
-$voucher4 = "EATLAH"; // Ganti disini
-$sec = "20";
+$voucher4 = "PAKAIGOJEK";
+$sec = "25";
 
 ulang:
 echo color("blue", "Auto Create Go-Jek Account + Auto Redeem Go-Food Voucher\n\n");
